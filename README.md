@@ -36,8 +36,8 @@ Create a script that loops through all the stocks for one year and outputs the f
 
 ## Code Execution Instructions:
 1. First dowload the repository onto your computer.
-2. Then open the multiple_year_stock_data.xlsx file and enable macros. 
-3. Then open up the Visual Basic window under the Developer tab in the multiple_year_stco_data.xlsx file and import the VBA-code.vba file.
+2. Then open the `multiple_year_stock_data.xlsx` file and enable macros. 
+3. Then open up the `Visual Basic` window under the `Developer` tab in the multiple_year_stock_data.xlsx file and import the `VBA-code.vba` file.
 4. Then hit the play button at the top of the window to run the code. 
 
 ## References
