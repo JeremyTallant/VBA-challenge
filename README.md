@@ -15,4 +15,4 @@ The primary goal of this project is to develop a robust VBA script capable of it
 Additionally, the script will be equipped to identify key performers in the dataset by reporting stocks with the `Greatest % Increase`, `Greatest % Decrease`, and `Greatest Total Volume`. This will provide a snapshot of the most significant movements within the market over the course of the year.
 
 To ensure a comprehensive analysis, the script will be designed to run across multiple worksheets, which will allow for an analysis of data from different years in a single execution. This approach aims to provide a more holistic view of stock performance trends over time, enhancing the decision-making process for investors.
-
+## Data
