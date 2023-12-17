@@ -17,13 +17,12 @@ Additionally, the script will be equipped to identify key performers in the data
 To ensure a comprehensive analysis, the script will be designed to run across multiple worksheets, which will allow for an analysis of data from different years in a single execution. This approach aims to provide a more holistic view of stock performance trends over time, enhancing the decision-making process for investors.
 ## Data
 The dataset utilized in this project encompasses a detailed record of stock market transactions over several years, provided by edX Boot Camps LLC strictly for educational purposes. It is structured into an Excel workbook titled `Multiple_year_stock_data.xlsx`, with each worksheet corresponding to a full year's trading data for a variety of stocks. Below is an outline of the data columns present in each worksheet:
-
-| Column  | Description                                              |
-|---------|----------------------------------------------------------|
-| Ticker  | The unique stock identifier                              |
-| Date    | The trading date                                         |
-| Open    | The price of the stock at the market open                |
-| High    | The highest price of the stock during the trading day    |
-| Low     | The lowest price of the stock during the trading day     |
-| Close   | The price of the stock at the market close               |
-| Volume  | The number of shares traded during the day               |
+| Column  | Description                                              			       |
+|---------|------------------------------------------------------------------------------------|
+| Ticker  | The unique stock identifier                                                        |
+| Date    | The trading date                                                                   |
+| Open    | The price of the stock at the market open                                          |
+| High    | The highest price of the stock during the trading day                              |
+| Low     | The lowest price of the stock during the trading day                               |
+| Close   | The price of the stock at the market close                                         |
+| Volume  | The number of shares traded during the day                                         |
