@@ -16,9 +16,7 @@ Additionally, the script will be equipped to identify key performers in the data
 
 To ensure a comprehensive analysis, the script will be designed to run across multiple worksheets, which will allow for an analysis of data from different years in a single execution. This approach aims to provide a more holistic view of stock performance trends over time, enhancing the decision-making process for investors.
 ## Data
-The dataset utilized in this project encompasses a detailed record of stock market transactions over several years, provided by edX Boot Camps LLC strictly for educational purposes. It is structured into an Excel workbook titled `Multiple_year_stock_data.xlsx`, with each worksheet corresponding to a full year's trading data for a variety of stocks.
-
-Below is an outline of the data columns present in each worksheet:
+The dataset utilized in this project encompasses a detailed record of stock market transactions over several years, provided by edX Boot Camps LLC strictly for educational purposes. It is structured into an Excel workbook titled `Multiple_year_stock_data.xlsx`, with each worksheet corresponding to a full year's trading data for a variety of stocks. Below is an outline of the data columns present in each worksheet:
 
 | Column  | Description                                              |
 |---------|----------------------------------------------------------|
