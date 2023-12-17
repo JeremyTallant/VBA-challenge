@@ -19,6 +19,7 @@ To ensure a comprehensive analysis, the script will be designed to run across mu
 The dataset utilized in this project encompasses a detailed record of stock market transactions over several years, provided by edX Boot Camps LLC strictly for educational purposes. It is structured into an Excel workbook titled `Multiple_year_stock_data.xlsx`, with each worksheet corresponding to a full year's trading data for a variety of stocks.
 
 Below is an outline of the data columns present in each worksheet:
+
 | Column  | Description                                              |
 |---------|----------------------------------------------------------|
 | Ticker  | The unique stock identifier                              |
