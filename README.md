@@ -1,4 +1,4 @@
-# Market Master: Automated Stock Analysis with VBA
+# Automated Stock Analysis with VBA
 
 ![stockmarket](https://user-images.githubusercontent.com/112406455/194172615-177dcc2b-4c3b-4911-a681-a46bcc4ce3e9.jpg)
 
