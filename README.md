@@ -83,5 +83,16 @@ This section of the script:
 * Identifies the stock with the Greatest Total Volume and records its details.
 
 By highlighting these key performers, the script provides valuable insights into which stocks had the most significant positive and negative changes, as well as which had the highest trading volume.
+### Completing the Script and Iterating Over Worksheets
+The final part of our script ensures that the analysis is applied to each worksheet in the workbook, allowing for a comprehensive analysis across multiple years.
+```VBA
+'Then excute loops to next worksheetNext ws        End Sub```
+In this concluding section:
 
+* The `For Each ws In Worksheets` loop signifies that the entire set of operations (analyzing stocks, finding key performers) is to be repeated for every worksheet in the Excel workbook.
+* This is essential for analyzing stock data year over year.
+* `Next ws` moves the execution to the next worksheet in the sequence.
+* `End Sub` marks the end of the entire subroutine.
+
+By iterating over each worksheet, the script provides a thorough analysis of stock data across different time frames, offering a more holistic view of stock market trends and behaviors.
 
