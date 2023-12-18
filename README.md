@@ -95,4 +95,5 @@ In this concluding section:
 * `End Sub` marks the end of the entire subroutine.
 
 By iterating over each worksheet, the script provides a thorough analysis of stock data across different time frames, offering a more holistic view of stock market trends and behaviors.
-
+## Testing
+It is essential to test your VBA script to ensure its accuracy and efficiency. For this purpose, use the `alphabetical_testing.xlsx` file during development. Testing with a smaller dataset before applying the script to the full data set is a best practice in scripting and programming. It helps in identifying and resolving issues faster, ensuring that the script is robust and efficient when applied to larger datasets.
