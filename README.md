@@ -27,3 +27,7 @@ The dataset utilized in this project encompasses a detailed record of stock mark
 | Close   | The price of the stock at the market close                                         |
 | Volume  | The number of shares traded during the day                                         |
 ## Implementation
+The first step in building our VBA script is to create a subroutine. This is where all of our code for analyzing the stock data will reside. 
+```VBA
+Sub Stock_Data_Analysis()
+```
