@@ -111,4 +111,4 @@ The year 2019 was marked by extraordinary performances in the stock market as pe
 ### 2020
 The VBA script's analysis for 2020 reveals significant stock market activity. Ticker YDI emerged as the top gainer with an impressive 188.76% increase in stock value, indicating potential strong business growth, strategic successes, or favorable market conditions for the company. On the decline side, ticker VNG faced a considerable loss, decreasing by -89.05%, which could reflect underlying business challenges or adverse market reactions. Notably, ticker QKN maintained its position as the most traded stock, with over 3.45 trillion shares traded throughout the year, suggesting sustained investor engagement and market presence.
 
-[image](images/2020.png)
+![image](images/2020.png)
