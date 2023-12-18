@@ -113,3 +113,40 @@ The VBA script's analysis for 2020 reveals significant stock market activity. Ti
 
 ![image](images/2020.png)
 ## How to Run the VBA Script
+To execute the VBA script for stock data analysis, follow these detailed steps:
+
+1. **Download Repo from Github**:
+Click on the `Code` button and select `Download ZIP` from the dropdown menu. Once downloaded, extract the ZIP file to a known location on your computer. 
+
+2. **Open the Excel Workbook**:
+Open the `Multiple_year_stock_data.xlsx` file located in the `Resources` folder that contains the stock data. Ensure that macros are enabled in Excel.
+
+2. **Access the VBA Editor**:
+Click on the `Developer` tab in the Excel ribbon. If the Developer tab is not visible, you can enable it by going to `File` > `Options` > `Customize Ribbon` and then checking the `Developer` box. In the `Developer` tab, click on the `Visual Basic` button to open the Visual Basic for Applications (VBA) editor. 
+
+3. **Insert a New Module**:
+In the VBA editor, right-click on any existing items in the `Project` window on the left side. Choose `Insert` > `Module`. This will create a new module where you can paste the VBA code.
+
+4. **Paste the VBA Code**:
+Copy the VBA script provided for the stock data analysis in the `VBA-code.vba` file and paste it into the new module window.
+
+6. **Save the Macro**:
+Save the workbook as a macro-enabled file (`.xlsm`) if you haven't done so already, to ensure that the script is saved properly.
+
+7. **Run the Script**:
+Press `F5` or click on `Run` > `Run Sub/UserForm` from the toolbar to execute the script.
+
+8. **View the Results**:
+Once the script has completed its execution, the results will be displayed in the specified output cells or sheets within the Excel workbook.
+
+9. **Review and Analyze**:
+Review the output for accuracy. The script should have generated insights like the Greatest % Increase, Greatest % Decrease, and Greatest Total Volume for each year's data.
+
+10. **Close the VBA Editor**:
+After running the script and reviewing the output, close the VBA editor to return to the main Excel window.
+
+11. **Save Your Workbook**:
+Save the Excel workbook once again to ensure that all changes and the output of the script are stored.
+
+Remember to frequently save your workbook, especially before running the script, to prevent any loss of data. If you encounter any issues while running the VBA script, check for error messages in the VBA editor and consult the `Immediate` window for any printout messages that may guide you in troubleshooting.
+
