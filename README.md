@@ -97,3 +97,18 @@ In this concluding section:
 By iterating over each worksheet, the script provides a thorough analysis of stock data across different time frames, offering a more holistic view of stock market trends and behaviors.
 ## Testing
 It is essential to test your VBA script to ensure its accuracy and efficiency. For this purpose, use the `alphabetical_testing.xlsx` file during development. Testing with a smaller dataset before applying the script to the full data set is a best practice in scripting and programming. It helps in identifying and resolving issues faster, ensuring that the script is robust and efficient when applied to larger datasets.
+## Insights
+### 2018
+In 2018, the stock that exhibited the greatest percentage increase was ticker THB, soaring to an impressive 141.42% gain. This remarkable surge indicates a potentially significant positive shift in the company's market performance or investor perception. On the other end of the spectrum, ticker RKS experienced the most substantial decline, with its value plummeting by -90.02%, suggesting major setbacks or negative market sentiment. Meanwhile, ticker QKN had the greatest trading volume, with over 1.69 trillion shares exchanged, highlighting its high level of market activity. This could be indicative of a highly liquid stock or one that was subject to significant investor focus during the year.
+
+![image](images/2018.png)
+
+### 2019
+The year 2019 was marked by extraordinary performances in the stock market as per the VBA script analysis. The standout performer was ticker RYU, which reported a staggering increase of 190.03% in its stock value, suggesting a highly successful year with potentially strong financial results or influential market events driving investor confidence. Conversely, ticker RKS faced a significant downturn for the second consecutive year, with its value dropping by -91.60%, which may raise concerns about its long-term viability and market position. Ticker ZQD dominated in terms of liquidity with a total trading volume exceeding 4.37 trillion, implying a robust interest from traders and investors and making it one of the most active stocks in the marketplace for the year.
+
+![image](images/2019.png)
+
+### 2020
+The VBA script's analysis for 2020 reveals significant stock market activity. Ticker YDI emerged as the top gainer with an impressive 188.76% increase in stock value, indicating potential strong business growth, strategic successes, or favorable market conditions for the company. On the decline side, ticker VNG faced a considerable loss, decreasing by -89.05%, which could reflect underlying business challenges or adverse market reactions. Notably, ticker QKN maintained its position as the most traded stock, with over 3.45 trillion shares traded throughout the year, suggesting sustained investor engagement and market presence.
+
+[image](images/2020.png)
