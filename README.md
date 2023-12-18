@@ -89,7 +89,7 @@ The final part of our script ensures that the analysis is applied to each worksh
 'Then excute loops to next worksheetNext ws        End Sub```
 In this concluding section:
 
-* The `For Each ws In Worksheets` loop signifies that the entire set of operations (analyzing stocks, finding key performers) is to be repeated for every worksheet in the Excel workbook.
+* The `For Each ws In Worksheets` loop in the beginning signifies that the entire set of operations (analyzing stocks, finding key performers) is to be repeated for every worksheet in the Excel workbook.
 * This is essential for analyzing stock data year over year.
 * `Next ws` moves the execution to the next worksheet in the sequence.
 * `End Sub` marks the end of the entire subroutine.
