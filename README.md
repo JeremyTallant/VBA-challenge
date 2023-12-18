@@ -4,6 +4,22 @@
 
 ## Background
 In the ever-evolving landscape of the financial markets, the ability to swiftly analyze vast amounts of data can provide a significant edge. This project leverages the power of VBA (Visual Basic for Applications) scripting to dissect and interpret generated stock market data with efficiency and precision. Our VBA script is designed to automate the analysis process, rapidly parsing through datasets to extract key financial metrics and performance indicators. By integrating these scripts into our workflow, we aim to uncover actionable insights from the stock market data, enabling more informed investment decisions and fostering a deeper understanding of market dynamics.
+## Table of Contents
+- [Objective](#objective)
+- [Data](#data)
+- [Implementation](#implementation)
+  - [Creating the Subroutine](#creating-the-subroutine)
+  - [Declaring Variables](#declaring-variables)
+  - [Labeling Column Headers and Tables](#labeling-column-headers-and-tables)
+  - [Analyzing Each Stock](#analyzing-each-stock-yearly-change-percent-change-and-total-stock-volume)
+  - [Identifying Key Performers](#identifying-key-performers-greatest--increase-greatest--decrease-and-total-volume)
+  - [Completing the Script](#completing-the-script-and-iterating-over-worksheets)
+- [Testing](#testing)
+- [Insights](#insights)
+  - [2018](#2018)
+  - [2019](#2019)
+  - [2020](#2020)
+- [How to Run the VBA Script](#how-to-run-the-vba-script)
 ## Objective
 The primary goal of this project is to develop a robust VBA script capable of iterating across an entire year's worth of stock data to compute and output critical performance metrics. The script will systematically loop through each stock and gather the following information:
 
