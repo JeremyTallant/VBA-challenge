@@ -70,4 +70,18 @@ This code block accomplishes the following:
 * Applies conditional formatting to the Yearly Change values for visual representation of positive (green) or negative (red) changes.
 
 By looping through each stock, this script segment effectively computes and organizes key financial metrics, making it easier to analyze the stock market data.
+### Identifying Key Performers: Greatest % Increase, Greatest % Decrease, and Total Volume
+After analyzing each stock, the script then focuses on identifying the stocks with the Greatest % Increase, Greatest % Decrease, and Greatest Total Volume. This is achieved through another loop in our script.
+```VBA
+'Make another loop for Greatest % Increase, Greatest % Decrease, and Greatest Total Volume'Assign values to variables for loop to startgtv = 0greatest_increase = 0greatest_decrease = 0'Set value of the last row for column KEndRowK = ws.Cells(Rows.Count, 11).End(xlUp).RowFor i = 2 To EndRowK    'First determine the Greatest Total Volume    If ws.Range("L" & i).Value > gtv Then       gtv = ws.Range("L" & i).Value       ws.Range("Q4").Value = gtv       ws.Range("P4").Value = ws.Range("I" & i).Value           End If        'Next determine Greatest % Increase    If ws.Range("K" & i).Value > greatest_increase Then        greatest_increase = ws.Range("K" & i).Value        ws.Range("Q2").Value = greatest_increase        ws.Range("P2").Value = ws.Range("I" & i).Value            End If        'Last determine Greatest % Decrease    If ws.Range("K" & i).Value < greatest_decrease Then        greatest_decrease = ws.Range("K" & i).Value        ws.Range("Q3").Value = greatest_decrease        ws.Range("P3").Value = ws.Range("I" & i).Value            End If        'Change format to "%" for Greatest % Increase and Decrease    ws.Range("Q2").NumberFormat = "0.00%"        ws.Range("Q3").NumberFormat = "0.00%"    Next i
+```
+This section of the script:
+
+* Loops through the Percent Change column to find the stocks with the greatest increase and decrease in value.
+* Records the Ticker Symbol and the corresponding values for these key performers.
+* Formats the Percent Change values to display them as percentages.
+* Identifies the stock with the Greatest Total Volume and records its details.
+
+By highlighting these key performers, the script provides valuable insights into which stocks had the most significant positive and negative changes, as well as which had the highest trading volume.
+
 
