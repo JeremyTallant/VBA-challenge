@@ -26,3 +26,4 @@ The dataset utilized in this project encompasses a detailed record of stock mark
 | Low     | The lowest price of the stock during the trading day                               |
 | Close   | The price of the stock at the market close                                         |
 | Volume  | The number of shares traded during the day                                         |
+## Implementation
