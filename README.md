@@ -31,3 +31,7 @@ The first step in building our VBA script is to create a subroutine. This is whe
 ```VBA
 Sub Stock_Data_Analysis()
 ```
+After establishing our subroutine, the next step is to declare the variables we will use throughout our script. This is crucial for structuring our data and ensuring smooth execution of the script
+```VBA
+'Define all variables'------------------------------------------------------------------------------------------------------'(Ticker Symbol, Open Price, Closing Price, Percentage Change, Total Stock Volume,Yearly Change, Greatest Total Volume)Dim ticker As StringDim open_price As DoubleDim closing_price As DoubleDim pc As DoubleDim tsv As DoubleDim yc As DoubleDim gtv As Double'Other variablesDim PreviousStockPrice As LongDim table_summary_row As LongDim greatest_increase As DoubleDim greatest_decrease As Double'Declare Worksheet as "ws" and Loop through each worksheetDim ws As WorksheetFor Each ws In Worksheets
+```
