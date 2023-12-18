@@ -27,11 +27,33 @@ The dataset utilized in this project encompasses a detailed record of stock mark
 | Close   | The price of the stock at the market close                                         |
 | Volume  | The number of shares traded during the day                                         |
 ## Implementation
+### Creating the Subroutine
 The first step in building our VBA script is to create a subroutine. This is where all of our code for analyzing the stock data will reside. 
 ```VBA
 Sub Stock_Data_Analysis()
 ```
+### Declaring Variables
 After establishing our subroutine, the next step is to declare the variables we will use throughout our script. This is crucial for structuring our data and ensuring smooth execution of the script
 ```VBA
 'Define all variables'------------------------------------------------------------------------------------------------------'(Ticker Symbol, Open Price, Closing Price, Percentage Change, Total Stock Volume,Yearly Change, Greatest Total Volume)Dim ticker As StringDim open_price As DoubleDim closing_price As DoubleDim pc As DoubleDim tsv As DoubleDim yc As DoubleDim gtv As Double'Other variablesDim PreviousStockPrice As LongDim table_summary_row As LongDim greatest_increase As DoubleDim greatest_decrease As Double'Declare Worksheet as "ws" and Loop through each worksheetDim ws As WorksheetFor Each ws In Worksheets
 ```
+In this section:
+* We declare various types of variables like `String`, `Double`, and `Long`. Each type serves a specific purpose, such as handling text, decimal numbers, or large integers.
+* `ticker`, `open_price`, `closing_price`, etc., are used to store and manipulate stock data.
+* `PreviousStockPrice` and `table_summary_row` are used for tracking and managing data during the script execution.
+* `ws` is declared as a Worksheet object, allowing us to iterate over each worksheet in the Excel workbook.
+
+Declaring variables at the beginning of our script enhances readability and maintenance, making the script easier to understand and modify.
+### Labeling Column Headers and Tables
+Once the variables are declared, the next step in our script is to label the column headers and tables. This is important for organizing the output of our analysis in a readable and accessible format.
+```VBA
+'Label Column Headers and Tablesws.Range("P1").Value = "Ticker"ws.Range("Q1").Value = "Value"ws.Range("O2").Value = "Greatest % Increase"ws.Range("O3").Value = "Greatest % Decrease"ws.Range("O4").Value = "Greatest Total Volume"ws.Range("I1").Value = "Ticker"ws.Range("J1").Value = "Yearly Change"ws.Range("K1").Value = "Percent Change"ws.Range("L1").Value = "Total Stock Volume"
+```
+In this code block:
+
+* We are using the `Range` property of the worksheet object `ws` to access specific cells.
+* Each cell is assigned a value that serves as a header for different data columns and tables.
+* For example, `ws.Range("P1").Value = "Ticker"` sets the value of cell P1 to "Ticker", which will serve as the header for the ticker symbols in our analysis.
+
+By labeling the columns and tables clearly, we ensure that the output of our script is easy to understand and interpret, facilitating better analysis of the stock data.
+
