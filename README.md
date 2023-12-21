@@ -8,17 +8,8 @@ In the ever-evolving landscape of the financial markets, the ability to swiftly 
 - [Objective](#objective)
 - [Data](#data)
 - [Implementation](#implementation)
-  - [Creating the Subroutine](#creating-the-subroutine)
-  - [Declaring Variables](#declaring-variables)
-  - [Labeling Column Headers and Tables](#labeling-column-headers-and-tables)
-  - [Analyzing Each Stock: Yearly Change, Percent Change, and Total Stock Volume](#analyzing-each-stock-yearly-change-percent-change-and-total-stock-volume)
-  - [Identifying Key Performers: Greatest % Increase, Greatest % Decrease, and Total Volume](#identifying-key-performers-greatest--increase-greatest--decrease-and-total-volume)
-  - [Completing the Script and Iterating Over Worksheets](#completing-the-script-and-iterating-over-worksheets)
 - [Testing](#testing)
 - [Insights](#insights)
-  - [2018](#2018)
-  - [2019](#2019)
-  - [2020](#2020)
 - [How to Run the VBA Script](#how-to-run-the-vba-script)
 ## Objective
 The primary goal of this project is to develop a robust VBA script capable of iterating across an entire year's worth of stock data to compute and output critical performance metrics. The script will systematically loop through each stock and gather the following information:
